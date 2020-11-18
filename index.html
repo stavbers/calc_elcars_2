@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+	<meta charset="UTF-8">
+	<title>Elcars калькулятор| Авто из США - калькулятор стоимости | доставка автомобиля из США </title>
+	<meta name="description" content="Калькулятор стоимости растаможки авто из США. Дешевые автомобили из Америки. Быстрая доставка автомобиля. Ремонт автомобиял США. Ремонт авто Америка. Електроавтомобили">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="theme-color" content="#a0ce4e">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/reset.css">
+	
+    <!-- <link rel="stylesheet" href="libs/bootstrap3.3.7/css/bootstrap-grid.min.css"> -->
+    <link rel="stylesheet" href="libs/bootstrap3.3.7/dist/css/bootstrap.css">
+	<link rel="stylesheet" href="libs/bootstrap-select/dist/css/bootstrap-select.css">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+
+	<link rel="stylesheet" href="css/main.css">
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123321911-7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-123321911-7');
+</script>
+
+    
+</head>
+<body>
+	
+	<header class="header">
+		<div class="container">
+			<div class="logo">
+				<a target="blank" href="http://elcars.ua/salon"><img src="images/logo.png" alt=""></a>
+				<a target="blank" href="http://elcars.ua/salon">Вернуться на главную</a>
+			</div>
+		</div>
+	</header>
+
+		<main class="main">
+			<div class="container">
+				<div class="wrapper">
+					<h2 class="wrapperTitle">Калькулятор растаможки</h2>
+						<div class="wrapperContent">
+						<div class="row">
+							<div class="col-sm-12 col-md-3">
+							<div class="wrapperInner">
+								<span>Стоимость авто на аукционе в $</span>
+								<input type="text" class="value number wrapperInp" placeholder="напр. 2000">
+							</div>
+							</div>
+							<div class="col-sm-12 col-md-3">
+								<div class="wrapperInner">
+									<span>Год выпуска автомобиля</span>
+										<input type="text" class="year_car number wrapperInp" placeholder="напр. 2008">
+								</div>
+							</div>
+
+
+							<div class="col-sm-12 col-md-3">
+								<div class="wrapperInner">
+									<span>Тип двигателя </span>
+										<select class="type_engine selectpicker">
+                			<option  value="0">Выберите тип двигателя</option>
+                			<option value="1">Бензин</option>
+                			<option value="2">Дизель</option>
+                			<option value="3">Электро</option>
+                			<!-- <option value="4">Гибрид</option> -->
+            				</select>
+								</div>
+							</div>
+
+							<div class="col-sm-12 col-md-3">
+								<div class="wrapperInner">
+									<span>Объем двигателя, см<sup>3</sup></span>
+										<input type="text" class="amount wrapperInp" placeholder="напр. 2000">&nbsp;
+								</div>
+							</div>
+
+							
+						</div>
+								<div class="row">
+									<div class="col-sm-12 col-md-3 ">
+										<div class="wrapperInner">
+											<span>Тип автомобиля&nbsp;</span> 
+												<select class="size_auto selectpicker">
+                					<option value="0">Выберите размер авто</option>
+               				 	  <option value="1">Небольшое авто/купе/седан</option>
+                					<option value="2">Кроссовер/SUV</option>
+                					<option value="3">Пикап/Микроавтобус/Грузовик</option>
+            						</select>
+										</div>
+									</div>
+									<div class="col-sm-12 col-md-3 ">
+										<div class="wrapperInner">
+											<span>Аукцион</span> 
+												<select class="type_action selectpicker">
+                					<option value="0">Выберите акцион покупки</option>
+                					<option value="1">Iaai</option>
+                					<option value="2">Copart</option>
+            						</select>
+										</div>
+									</div>
+									<div class="col-sm-12 col-md-3 ">
+										<div class="wrapperInner">
+											<span>Местонахождение лота</span>
+													<select class="location_lot selectpicker" data-live-search="true">
+                <option value="0">Выберите местонахождения авто</option>
+                <option value="0">iaai-ABILENE - TX</option>
+                <option value="1">iaai-ACRON CANTON - OH</option>
+                <option value="2">iaai-ALBANY - NY</option>
+                <option value="3">iaai-ALBUQUERQUE - NM</option>
+                <option value="4">iaai-ALTOONA - PA</option>
+                <option value="5">iaai-AMARILLO - TX</option>
+                <option value="6">iaai-ANAHEIM - CA</option>
+                <option value="7">iaai-ANCHORAGE - AK</option>
+                <option value="8">iaai-APPLETON - WI</option>
+                <option value="9">iaai-ASHEVILLE - NC</option>
+                <option value="10">iaai-ASHLAND - KY</option>
+                <option value="11">iaai-ATLANTA - GA</option>
+                <option value="12">iaai-ATLANTA EAST - GA</option>
+                <option value="13">iaai-ATLANTA NORTH - GA</option>
+                <option value="14">iaai-ATLANTA SOUTH - GA</option>
+                <option value="15">iaai-AUSTIN - TX</option>
+                <option value="16">iaai-AVENEL - NJ</option>
+                <option value="17">iaai-BALTIMORE - MD</option>
+                <option value="18">iaai-BATON ROUGE - LA</option>
+                <option value="19">iaai-BILLINGS - MT</option>
+                <option value="20">iaai-BIRMINGHAM - AL</option>
+                <option value="21">iaai-BIRMINGHAM - BLENDED SALES - AL</option>
+                <option value="22">iaai-BOISE - ID</option>
+                <option value="23">iaai-BOSTON-SHIRLEY - MA</option>
+                <option value="24">iaai-BOWLING GREEN - KY</option>
+                <option value="25">iaai-BRIDGEPORT - PA</option>
+                <option value="26">iaai-BUCKHANNON - WV</option>
+                <option value="27">iaai-BUFFALO - NY</option>
+                <option value="28">iaai-BURLINGTON - VT</option>
+                <option value="29">iaai-CASPER - WY</option>
+                <option value="30">iaai-CENTRAL NEW JERSEY - NJ</option>
+                <option value="31">iaai-CHARLESTON - SC</option>
+                <option value="32">iaai-CHARLOTTE - NC</option>
+                <option value="33">iaai-CHATTANOOGA - TN</option>
+                <option value="34">iaai-CHICAGO NORTH - IL</option>
+                <option value="35">iaai-CHICAGO SOUTH - IL</option>
+                <option value="36">iaai-CHICAGO WEST - IL</option>
+                <option value="37">iaai-CINCINNATI - OH</option>
+                <option value="38">iaai-CINCINNATI SOUTH - OH</option>
+                <option value="39">iaai-CLEARWATER - FL</option>
+                <option value="40">iaai-CLEVELAND - OH</option>
+                <option value="41">iaai-COLTON - CA</option>
+                <option value="42">iaai-COLUMBIA - SC</option>
+                <option value="43">iaai-COLUMBUS - OH</option>
+                <option value="44">iaai-CONCORD - NC</option>
+                <option value="45">iaai-CORPUS CHRISTI - TX</option>
+                <option value="46">iaai-CULPEPER - VA</option>
+                <option value="47">iaai-DALLAS - TX</option>
+                <option value="48">iaai-DALLAS / FT. WORTH - TX</option>
+                <option value="49">iaai-DAVENPORT - IA</option>
+                <option value="50">iaai-DAYTON - OH</option>
+                <option value="51">iaai-DENVER - CO</option>
+                <option value="52">iaai-DENVER EAST - CO</option>
+                <option value="53">iaai-DES MOINES - IA</option>
+                <option value="54">iaai-DETROIT - MI</option>
+                <option value="55">iaai-DOTHAN - AL</option>
+                <option value="56">iaai-DUNDALK - MD</option>
+                <option value="57">iaai-EAST BAY - CA</option>
+                <option value="58">iaai-EL PASO - TX</option>
+                <option value="59">iaai-ERIE - PA</option>
+                <option value="60">iaai-EUGENE - OR</option>
+                <option value="61">iaai-FARGO - ND</option>
+                <option value="62">iaai-FAYETTEVILLE - AR</option>
+                <option value="63">iaai-FLINT - MI</option>
+                <option value="64">iaai-FONTANA - CA</option>
+                <option value="65">iaai-FORT MYERS - FL</option>
+                <option value="66">iaai-FORT WORTH NORTH - TX</option>
+                <option value="67">iaai-FREMONT - CA</option>
+                <option value="68">iaai-FRESNO - CA</option>
+                <option value="69">iaai-FT.PIERCE - FL</option>
+                <option value="70">iaai-Fredericksburg-South - VA</option>
+                <option value="71">iaai-GRAND RAPIDS - MI</option>
+                <option value="72">iaai-GREAT LAKES - MI</option>
+                <option value="73">iaai-GREENSBORO - NC</option>
+                <option value="74">iaai-GREENVILLE - SC</option>
+                <option value="75">iaai-GRENADA - MS</option>
+                <option value="76">iaai-GULF COAST - MS</option>
+                <option value="77">iaai-HARTFORD SOUTH - CT</option>
+                <option value="78">iaai-HARTFORD - CT</option>
+                <option value="79">iaai-HIGH DESERT - CA</option>
+                <option value="80">iaai-HONOLULU - HI</option>
+                <option value="81">iaai-HOUSTON - TX</option>
+                <option value="82">iaai-HOUSTON NORTH - TX</option>
+                <option value="83">iaai-HUNTSVILLE - AL</option>
+                <option value="84">iaai-IAA CAT Houston - TX</option>
+                <option value="85">iaai-INDIANAPOLIS - IN</option>
+                <option value="86">iaai-JACKSON - MS</option>
+                <option value="87">iaai-JACKSONVILLE - FL</option>
+                <option value="88">iaai-KANSAS CITY - KS</option>
+                <option value="89">iaai-KNOXVILLE - TN</option>
+                <option value="90">iaai-LAFAYETTE - LA</option>
+                <option value="91">iaai-LAS VEGAS - NV</option>
+                <option value="92">iaai-LAUREL - MD</option>
+                <option value="93">iaai-LINCOLN - IL</option>
+                <option value="94">iaai-LITTLE ROCK - AR</option>
+                <option value="95">iaai-LONG ISLAND - NY</option>
+                <option value="96">iaai-LONGVIEW - TX</option>
+                <option value="97">iaai-LOS ANGELES - CA</option>
+                <option value="98">iaai-LOUISVILLE - KY</option>
+                <option value="99">iaai-LOUISVILLE NORTH - KY</option>
+                <option value="100">iaai-LUBBOCK - TX</option>
+                <option value="101">iaai-MACON - GA</option>
+                <option value="102">iaai-MANCHESTER - NH</option>
+                <option value="103">iaai-MCALLEN - TX</option>
+                <option value="104">iaai-MEMPHIS - TN</option>
+                <option value="105">iaai-METRO - DC</option>
+                <option value="106">iaai-MIAMI - FL</option>
+                <option value="107">iaai-MIAMI NORTH - FL</option>
+                <option value="108">iaai-MILWAUKEE - WI</option>
+                <option value="109">iaai-MINNEAPOLIS/ST.PAUL - MN</option>
+                <option value="110">iaai-MISSOULA - MT</option>
+                <option value="111">iaai-NASHVILLE - BLENDED SALES - TN</option>
+                <option value="112">iaai-NASHVILLE - TN</option>
+                <option value="113">iaai-NEW CASTLE - DE</option>
+                <option value="114">iaai-NEW ORLEANS - LA</option>
+                <option value="115">iaai-NEW ORLEANS AND LOUISIANA FLOOD</option>
+                <option value="116">iaai-NEW ORLEANS EAST - LA</option>
+                <option value="117">iaai-NEWBURGH - NY</option>
+                <option value="118">iaai-NORH HOLLYWOOD - CA</option>
+                <option value="119">iaai-NOTHERN NEW JERSEY - NJ</option>
+                <option value="120">iaai-NOTHERN VIRGINIA - VA</option>
+                <option value="121">iaai-OKLAHOMA CITY - OK</option>
+                <option value="122">iaai-OMAHA - NE</option>
+                <option value="123">iaai-ORLANDO - FL</option>
+                <option value="124">iaai-ORLANDO NORTH - FL</option>
+                <option value="125">iaai-PADUCAH - KY</option>
+                <option value="126">iaai-PENSACOLA - FL</option>
+                <option value="127">iaai-PERMIAN BASIN - TX</option>
+                <option value="128">iaai-PHILADELPHIA - PA</option>
+                <option value="129">iaai-PHOENIX - AZ</option>
+                <option value="130">iaai-PITTSBURGH - PA</option>
+                <option value="131">iaai-PITTSBURGH NORTH - PA</option>
+                <option value="132">iaai-PORTAGE - WI</option>
+                <option value="133">iaai-PORTLAND - OR</option>
+                <option value="134">iaai-PORTLAND GORHAM - ME</option>
+                <option value="135">iaai-PORTLAND NORTH - OR</option>
+                <option value="136">iaai-PORTLAND WEST - OR</option>
+                <option value="137">iaai-PROVIDENCE - RI</option>
+                <option value="138">iaai-PULASKI - VA</option>
+                <option value="139">iaai-RALEIGH - NC</option>
+                <option value="140">iaai-RENO - NV</option>
+                <option value="141">iaai-RICHMOND - VA</option>
+                <option value="142">iaai-ROCHESTER - NY</option>
+                <option value="143">iaai-ROCHESTER WEST - NY</option>
+                <option value="144">iaai-ROSEDALE - MD</option>
+                <option value="145">iaai-SACRAMENTO - CA</option>
+                <option value="146">iaai-SALT LAKE CITY - UT</option>
+                <option value="147">iaai-SAN ANTONIO - TX</option>
+                <option value="148">iaai-SAN ANTONIO SOUTH - TX</option>
+                <option value="149">iaai-SAN DIEGO - CA</option>
+                <option value="150">iaai-SAVANNAH - GA</option>
+                <option value="151">iaai-SCRANTON - PA</option>
+                <option value="152">iaai-SEATLE - WA</option>
+                <option value="153">iaai-SEATLE SOUTH - WA</option>
+                <option value="154">iaai-SHADY SPRING - WV</option>
+                <option value="155">iaai-SHREVEPORT - LA</option>
+                <option value="156">iaai-SIOUX FALLS - SD</option>
+                <option value="157">iaai-SOUTH BEND - IN</option>
+                <option value="158">iaai-SOUTHERN NEW JERSEY - NJ</option>
+                <option value="159">iaai-SPECIALTY DIVISION - IL</option>
+                <option value="160">iaai-SPOKANE - WA</option>
+                <option value="161">iaai-SPRINGFIELD - MO</option>
+                <option value="162">iaai-ST. LOUIS - IL</option>
+                <option value="163">iaai-SUFFOLK - VA</option>
+                <option value="164">iaai-SYRACUSE - NY</option>
+                <option value="165">iaai-TAMPA - FL</option>
+                <option value="166">iaai-TAMPA NORTH - FL</option>
+                <option value="167">iaai-TAUNTON - MA</option>
+                <option value="168">iaai-TIDEWATER - VA</option>
+                <option value="169">iaai-TIFTON - GA</option>
+                <option value="170">iaai-TUCSON - AZ</option>
+                <option value="171">iaai-TULSA - OK</option>
+                <option value="172">iaai-WESTERN COLORADO - CO</option>
+                <option value="173">iaai-WICHITA - KS</option>
+                <option value="174">iaai-WILMINGTON - NC</option>
+                <option value="175">iaai-YORK SPRINGS - PA</option>
+                <option value="176">Copart - ABILENE - TX</option>
+                <option value="177">Copart - ALBANY - NY</option>
+                <option value="178">Copart - ALBUQUERQUE - NM</option>
+                <option value="179">Copart - ALTOONA - PA</option>
+                <option value="180">Copart - AMARILLO - TX</option>
+                <option value="181">Copart - ANCHORAGE - AK</option>
+                <option value="182">Copart - ANDREWS-TX</option>
+                <option value="183">Copart - ANTELOPE - CA</option>
+                <option value="184">Copart - APPLETON - WI</option>
+                <option value="185">Copart - ATLANTA EAST - GA</option>
+                <option value="186">Copart - ATLANTA NORTH - GA</option>
+                <option value="187">Copart - ATLANTA SOUTH - GA</option>
+                <option value="188">Copart - ATLANTA WEST - GA</option>
+                <option value="189">Copart - AUSTIN - TX</option>
+                <option value="190">Copart - BAKERSFIELD - CA</option>
+                <option value="191">Copart - BALTIMORE - MD</option>
+                <option value="192">Copart - BATON ROUGE - LA</option>
+                <option value="193">Copart - BILLINGS - MT</option>
+                <option value="194">Copart - BIRMINGHAM - AL</option>
+                <option value="195">Copart - BOISE - ID</option>
+                <option value="196">Copart - CANDIA - NH</option>
+                <option value="197">Copart - CARTERSVILLE - GA</option>
+                <option value="198">Copart - CASPER - WY</option>
+                <option value="199">Copart - CHAMBERSBURG - PA</option>
+                <option value="200">Copart - CHARLESTON - SC</option>
+                <option value="201">Copart - CHARLESTON - WV</option>
+                <option value="202">Copart - CHICAGO NORTH - IL</option>
+                <option value="203">Copart - CHICAGO SOUTH - IL</option>
+                <option value="204">Copart - CHINA GROVE - NC</option>
+                <option value="205">Copart - CLEVELAND EAST - OH</option>
+                <option value="206">Copart - CLEVELAND WEST - OH</option>
+                <option value="207">Copart - COLORADO SPRINGS - CO</option>
+                <option value="208">Copart - COLUMBIA - MO</option>
+                <option value="209">Copart - COLUMBIA - SC</option>
+                <option value="210">Copart - COLUMBUS - OH</option>
+                <option value="211">Copart - CORPUS CHRISTI - TX</option>
+                <option value="212">Copart - CRASHEDTOYS EAST BETHEL - MN</option>
+                <option value="213">Copart - CRASHEDTOYS ELDRIDGE - IA</option>
+                <option value="214">Copart - CULPEPER - VA</option>
+                <option value="215">Copart - DALLAS - TX</option>
+                <option value="216">Copart - DALLAS SOUTH - TX</option>
+                <option value="217">Copart - DANVILLE - VA</option>
+                <option value="218">Copart - DAVENPORT - IA</option>
+                <option value="219">Copart - DAYTON - OH</option>
+                <option value="220">Copart - DENVER - CO</option>
+                <option value="221">Copart - DENVER CENTRAL - CO</option>
+                <option value="222">Copart - DENVER SOUTH - CO</option>
+                <option value="223">Copart - DES MOINES - IA</option>
+                <option value="224">Copart - DETROIT - MI</option>
+                <option value="225">Copart - EL PASO - TX</option>
+                <option value="226">Copart - EUGENE - OR</option>
+                <option value="227">Copart - EXETER - RI</option>
+                <option value="228">Copart - FAYETTEVILLE - AR</option>
+                <option value="229">Copart - FLINT - MI</option>
+                <option value="230">Copart - FORT WAYNE - IN</option>
+                <option value="231">Copart - FREMONT - CA</option>
+                <option value="232">Copart - FRESNO - CA</option>
+                <option value="233">Copart - FT.PIERCE - FL</option>
+                <option value="234">Copart - FT.WORTH - TX</option>
+                <option value="235">Copart - GLASSBORO EAST - NJ</option>
+                <option value="236">Copart - GRAHAM - WA</option>
+                <option value="237">Copart - GREER - SC</option>
+                <option value="238">Copart - HAMMOND - IN</option>
+                <option value="239">Copart - HAMPTON - VA</option>
+                <option value="240">Copart - HARRISBURG - PA</option>
+                <option value="241">Copart - HARTFORD - CT</option>
+                <option value="242">Copart - HAYWARD - CA</option>
+                <option value="243">Copart - HELENA - MT</option>
+                <option value="244">Copart - HONOLULU - HI</option>
+                <option value="245">Copart - HOUSTON - TX</option>
+                <option value="246">Copart - INDIANAPOLIS - IN</option>
+                <option value="247">Copart - IONIA - MI</option>
+                <option value="248">Copart - JACKSON - MS</option>
+                <option value="249">Copart - JACKSONVILLE EAST - FL</option>
+                <option value="250">Copart - JACKSONVILLE WEST - FL</option>
+                <option value="251">Copart - KANSAS CITY - KS</option>
+                <option value="252">Copart - KINCHELOE - MI</option>
+                <option value="253">Copart - KNOXVILLE - TN</option>
+                <option value="254">Copart - LANSING - MI</option>
+                <option value="255">Copart - LAS VEGAS - NV</option>
+                <option value="256">Copart - LEXINGTON EAST - KY</option>
+                <option value="257">Copart - LEXINGTON WEST - KY</option>
+                <option value="258">Copart - LINCOLN - NE</option>
+                <option value="259">Copart - LITTLE ROCK - AR</option>
+                <option value="260">Copart - LONG BEACH - CA</option>
+                <option value="261">Copart - LONG ISLAND - NY</option>
+                <option value="262">Copart - LONGVIEW - TX</option>
+                <option value="263">Copart - LOS ANGELES - CA</option>
+                <option value="264">Copart - LOUISVILLE - KY</option>
+                <option value="265">Copart - LUFKIN - TX</option>
+                <option value="266">Copart - LYMAN - ME</option>
+                <option value="267">Copart - MADISON - WI</option>
+                <option value="268">Copart - MARTINEZ - CA</option>
+                <option value="269">Copart - MCALLEN - TX</option>
+                <option value="270">Copart - MEBANE - NC</option>
+                <option value="271">Copart - MEMPHIS - TN</option>
+                <option value="272">Copart - MIAMI CENTRAL - FL</option>
+                <option value="273">Copart - MIAMI NORTH - FL</option>
+                <option value="274">Copart - MIAMI SOUTH - FL</option>
+                <option value="275">Copart - MILWAUKEE - WI</option>
+                <option value="276">Copart - MINNEAPOLIS - MN</option>
+                <option value="277">Copart - MINNEAPOLIS NORTH - MN</option>
+                <option value="278">Copart - MOBILE - AL</option>
+                <option value="279">Copart - MONTGOMERY - AL</option>
+                <option value="280">Copart - NASHVILLE - TN</option>
+                <option value="281">Copart - NEW ORLEANS - LA</option>
+                <option value="282">Copart - NEWBURGH - NY</option>
+                <option value="283">Copart - NORTH BOSTON - MA</option>
+                <option value="284">Copart - NORTH SEATTLE - WA</option>
+                <option value="285">Copart - OCALA - FL</option>
+                <option value="286">Copart - OGDEN- UT</option>
+                <option value="287">Copart - OKLAHOMA CITY - OK</option>
+                <option value="288">Copart - ORLANDO - FL</option>
+                <option value="289">Copart - ORLANDO NORTH - FL</option>
+                <option value="290">Copart - ORLANDO SOUTH - FL</option>
+                <option value="291">Copart - PASCO - WA</option>
+                <option value="292">Copart - PEORIA - IL</option>
+                <option value="293">Copart - PHILADELPHIA - PA</option>
+                <option value="294">Copart - PHILADELPHIA EAST</option>
+                <option value="295">Copart - PHILADELPHIA EAST - SUBLOT - PA</option>
+                <option value="296">Copart - PHOENIX - AZ</option>
+                <option value="297">Copart - PITTSBURG SOUTH - PA</option>
+                <option value="298">Copart - PITTSBURGH EAST - PA</option>
+                <option value="299">Copart - PITTSBURGH NORTH - PA</option>
+                <option value="300">Copart - PORTLAND NORTH - OR</option>
+                <option value="301">Copart - PORTLAND SOUTH - OR</option>
+                <option value="302">Copart - PUNTA GORDA - FL</option>
+                <option value="303">Copart - RALEIGH - NC</option>
+                <option value="304">Copart - RANCHO CUCAMONGA - CA</option>
+                <option value="305">Copart - RENO - NV</option>
+                <option value="306">Copart - RICHMOND - VA</option>
+                <option value="307">Copart - ROCHESTER - NY</option>
+                <option value="308">Copart - SACRAMENTO - CA</option>
+                <option value="309">Copart - SALT LAKE CITY - UT</option>
+                <option value="310">Copart - SAN ANTONIO - TX</option>
+                <option value="311">Copart - SAN BERNARDINO- CA</option>
+                <option value="312">Copart - SAN DIEGO - CA</option>
+                <option value="313">Copart - SAN JOSE - CA</option>
+                <option value="314">Copart - SAVANNAH - GA</option>
+                <option value="315">Copart - SCRANTON - PA</option>
+                <option value="316">Copart - SEAFORD - DE</option>
+                <option value="317">Copart - SHREVEPORT - LA</option>
+                <option value="318">Copart - SIKESTON - MO</option>
+                <option value="319">Copart - SO SACRAMENTO - CA</option>
+                <option value="320">Copart - SOMERVILLE - NJ</option>
+                <option value="321">Copart - SOUTH BOSTON - MA</option>
+                <option value="322">Copart - SOUTHERN ILLINOIS - IL</option>
+                <option value="323">Copart - SPARTANBURG - SC</option>
+                <option value="324">Copart - SPOKANE - WA</option>
+                <option value="325">Copart - SPRINGFIELD - MO</option>
+                <option value="326">Copart - ST. CLOUD - MN</option>
+                <option value="327">Copart - ST. LOUIS - MO</option>
+                <option value="328">Copart - SUN VALLEY - CA</option>
+                <option value="329">Copart - SYRACUSE - NY</option>
+                <option value="330">Copart - TALLAHASSEE - FL</option>
+                <option value="331">Copart - TAMPA SOUTH - FL</option>
+                <option value="332">Copart - TANNER - AL</option>
+                <option value="333">Copart - TIFTON - GA</option>
+                <option value="334">Copart - TORONTO CANADA</option>
+                <option value="335">Copart - TRENTON - NJ</option>
+                <option value="336">Copart - TUCSON - AZ</option>
+                <option value="337">Copart - TULSA - OK</option>
+                <option value="338">Copart - VALLEJO - CA</option>
+                <option value="339">Copart - VAN NUYS - CA</option>
+                <option value="340">Copart - WACO - TX</option>
+                <option value="341">Copart - WALTON - KY</option>
+                <option value="342">Copart - WASHINGTON DC - MD</option>
+                <option value="343">Copart - WEBSTER - NH</option>
+                <option value="344">Copart - WEST PALM BEACH - FL</option>
+                <option value="345">Copart - WEST WARREN - MA</option>
+                <option value="346">Copart - WHEELING - IL</option>
+                <option value="347">Copart - WICHITA - KS</option>
+                <option value="348">Copart - YORK HAVEN - PA</option> 
+                </select>
+										</div>
+									</div>
+									<div class="col-sm-12 col-md-3">
+										<div class="wrapperInner">
+											<span>Порт в США</span> 
+												<select class="port_usa wrapperInp">
+                					<option value="0">Выберите порт отправки</option>
+                					<option value="1">нет доступных</option>
+           							</select>
+										</div>
+									</div>
+								</div>
+								
+				</div>
+				<a href="#" id="calculate" class="btn1"><i class="fas fa-calculator"></i>&nbsp;&nbsp;Рассчитать</a>
+				</div>
+			<!-- wrapper end -->
+
+			<!-- <span class="calcPrice result" style="display: block; text-align: center;">0 &nbsp;</span> -->
+
+		<div class="divchik">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="calc">
+							<span class="calcName">Стоимость авто в США + % аукциона:</span>
+							<span class="calcPrice price_USAA">0 </span>
+						</div>
+						</div>
+						<div class="col-sm-12">
+						<div class="calc">
+							<span class="calcName">Доставка в Украину:</span>
+							<span class="calcPrice value_servicee">0 </span>
+						</div>
+						</div>
+						<div class="col-sm-12">
+						<div class="calc">
+						<span class="calcName">Растаможка авто:</span>
+						<span class="calcPrice customs_clearancee">0 </span>
+					</div>
+					</div>
+					<div class="col-sm-12">
+					<div class="calc calcResult">
+						<span class="calcName">Итого:</span>
+						<span class="calcPrice resultt">0 </span>
+					</div>
+					</div>
+				</div>
+				</div> 
+
+		
+			
+
+			<a class="buttons">Показать весь расчет</a>
+
+			<div class="wrapperResult" style="display: none;">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="calc">
+						<span class="calcName">Стоимость авто в США:</span>
+						<span class="calcPrice price_USA">0 &nbsp;</span>
+					</div>
+					<div class="calc">
+						<span class="calcName">Аукционный сбор:</span>
+						<span class="calcPrice auction_fee">0 &nbsp;</span>
+					</div>
+					<div class="calc">
+						<span class="calcName">Сухопутная доставка до порта в США:</span>
+						<span class="calcPrice land_delivery_usa">0 &nbsp;</span>
+					</div>
+					<div class="calc">
+						<span class="calcName">Морская доставка в порт «Одесса»:</span>
+						<span class="calcPrice delivery_port">0 &nbsp;</span>
+					</div>
+					<div class="calc">
+						<span class="calcName">Экспедирование и подготовка документов к таможенной очистке:</span>
+						<span class="calcPrice expedition_odessa">0 &nbsp;</span>
+					</div>
+					<div class="calc" >
+						<span class="calcName">Акцизный сбор:</span>
+						<span class="calcPrice excise_duty">0 &nbsp;</span>
+					</div>
+					<div class="calc" >
+						<span class="calcName">Пошлина:</span>
+						<span class="calcPrice duty">0 &nbsp;</span>
+					</div>
+					<div class="calc">
+						<span class="calcName">Ндс:</span>
+						<span class="calcPrice vat">0 &nbsp;</span>
+					</div>
+					<div class="calc" style="display: none;">
+						<span class="calcName">Растаможка:</span>
+						<span class="calcPrice customs_clearance">0 &nbsp;</span>
+					</div>
+					<div class="calc">
+						<span class="calcName">Стоимость услуг Elcars:</span>
+						<span class="calcPrice value_service">0 &nbsp;</span>
+					</div>
+					<div class="calc">
+						<span class="calcName">Доставка по Украине</span>
+						<span class="calcPrice ukr_deliverys"> 0&nbsp;</span>
+					</div>
+					<div class="calc calcResult">
+						<span class="calcName">Итого:</span>
+						<span class="calcPrice result">0 &nbsp;</span>
+					</div>
+				</div>
+
+
+			</div>
+
+			
+				
+				<a class="printResult btn1"> <i class="fas fa-print"></i>&nbsp;&nbsp;распечатать</a>
+
+
+
+			</div> <!-- wrapperResult End -->
+
+					<footer class="footer">
+						
+					</footer>
+			</div> <!-- container end -->
+
+			<div id="message"></div>
+			<div class="rates" style="display: none;"></div> 
+		</main>
+
+
+<!-- 
+<script type="text/javascript">
+
+
+
+</script> -->
+
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="libs/bootstrap3.3.7/dist/js/bootstrap.js"></script>
+    <script src="libs/bootstrap-select/dist/js/bootstrap-select.js"></script>
+    <script src="libs/printThis/printThis.js"></script>
+    <script type="text/javascript" src="red.js"></script>
+	
+</body>
+</html>
